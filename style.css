@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+}
+
+.header {
+  background: #6b2c91;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.header a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.blog, .blog-list {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.date {
+  color: gray;
+  font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #eee;
+}
