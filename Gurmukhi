@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pa">
+<head>
+  <meta charset="UTF-8">
+  <title>ਮੇਰੀ ਪਹਿਲੀ ਵੈਬਸਾਈਟ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #b22222;
+    }
+    p {
+      font-size: 18px;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <h1>ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ 🙏</h1>
+    <p>ਮੇਰੀ GitHub ਵੈਬਸਾਈਟ ਸਫਲਤਾਪੂਰਵਕ ਚੱਲ ਰਹੀ ਹੈ।</p>
+    <p>ਇੱਥੇ ਮੈਂ ਪੰਜਾਬੀ ਵਿਚ ਆਪਣਾ ਕੰਮ ਸਾਂਝਾ ਕਰਾਂਗੀ।</p>
+    <p><b>ਧੰਨਵਾਦ ਜੀ</b></p>
+  </div>
+</body>
+</html>
