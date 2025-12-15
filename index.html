@@ -2,48 +2,80 @@
 <html lang="pa">
 <head>
 <meta charset="UTF-8">
-<title>ਪੰਜਾਬੀ ਬਲੌਗ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ਮੇਰਾ ਪੰਜਾਬੀ ਬਲੌਗ</title>
+
 <style>
 body{
-  font-family: "Noto Sans Gurmukhi", Arial, sans-serif;
-  background:#f2f2f2;
   margin:0;
+  font-family:"Noto Sans Gurmukhi", Arial, sans-serif;
+  background:#f4f4f4;
 }
-header{
-  background:#8b0000;
-  color:white;
-  padding:20px;
+
+/* MENU */
+nav{
+  background:#7b0000;
+  padding:12px;
   text-align:center;
 }
+nav a{
+  color:white;
+  margin:0 12px;
+  text-decoration:none;
+  font-size:18px;
+}
+
+/* CONTENT */
 .container{
   max-width:900px;
   margin:auto;
   background:white;
   padding:20px;
 }
-a{
-  color:#8b0000;
-  text-decoration:none;
-  font-size:18px;
+h1,h2{
+  color:#7b0000;
 }
+ul{
+  padding-left:20px;
+}
+li{
+  margin-bottom:10px;
+}
+
+/* FOOTER */
 footer{
-  text-align:center;
-  padding:15px;
   background:#eee;
-  margin-top:20px;
+  text-align:center;
+  padding:12px;
+  font-size:14px;
+}
+
+/* MOBILE */
+@media(max-width:600px){
+  nav a{
+    display:block;
+    margin:8px 0;
+  }
 }
 </style>
 </head>
 
 <body>
 
-<header>
-  <h1>🙏 ਮੇਰਾ ਪੰਜਾਬੀ ਬਲੌਗ</h1>
-  <p>ਪੰਜਾਬੀ ਸਭਿਆਚਾਰ • ਕਲਾ • ਹੱਥ ਕਢਾਈ</p>
-</header>
+<nav>
+  <a href="index.html">ਮੁੱਖ ਸਫ਼ਾ</a>
+  <a href="blogs.html">ਬਲੌਗ</a>
+  <a href="sampark.html">ਸੰਪਰਕ</a>
+</nav>
 
 <div class="container">
-  <h2>📚 ਮੇਰੇ ਲੇਖ</h2>
+  <h1>🙏 ਮੇਰੇ ਪੰਜਾਬੀ ਬਲੌਗ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ</h1>
+
+  <p>
+  ਇਹ ਬਲੌਗ ਪੰਜਾਬੀ ਸਭਿਆਚਾਰ, ਕਲਾ ਅਤੇ ਹੱਥ ਕਢਾਈ ਬਾਰੇ ਹੈ।
+  </p>
+
+  <h2>📚 ਨਵੇਂ ਲੇਖ</h2>
   <ul>
     <li><a href="blogs/post1.html">ਹੱਥ ਕਢਾਈ ਦੀ ਮਹੱਤਤਾ</a></li>
     <li><a href="blogs/post2.html">ਪੰਜਾਬੀ ਕਲਾ ਅਤੇ ਵਿਰਾਸਤ</a></li>
@@ -51,7 +83,7 @@ footer{
 </div>
 
 <footer>
-  © 2025 ਮੇਰਾ ਪੰਜਾਬੀ ਬਲੌਗ
+© 2025 ਮੇਰਾ ਪੰਜਾਬੀ ਬਲੌਗ
 </footer>
 
 </body>
