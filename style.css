@@ -1,10 +1,9 @@
-/* RESET */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background: #f2f2f2;
 }
 
-/* HEADER */
 .top-header {
   background: linear-gradient(90deg, #7b0000, #b30000);
   color: #fff;
@@ -19,12 +18,6 @@ body {
   font-weight: bold;
 }
 
-/* MENU */
-.nav-menu {
-  display: flex;
-  align-items: center;
-}
-
 .nav-menu a,
 .dropbtn {
   color: #fff;
@@ -36,9 +29,16 @@ body {
   cursor: pointer;
 }
 
-/* DROPDOWN */
+.nav-menu a:hover,
+.dropdown:hover .dropbtn {
+  background: #7b0000;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
 .dropdown {
   position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -46,7 +46,6 @@ body {
   position: absolute;
   background: #fff;
   min-width: 180px;
-  top: 35px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   border-radius: 6px;
   z-index: 999;
@@ -64,4 +63,43 @@ body {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.blog-grid {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.blog-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.blog-card a {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #7b0000;
+  text-decoration: none;
+}
+
+.blog-card span {
+  font-size: 13px;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ddd;
+  margin-top: 40px;
 }
