@@ -2,35 +2,73 @@
 <html lang="pa">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ਪੰਜਾਬੀ ਬਲੌਗ</title>
+<title>ਮੇਰੇ ਸਾਰੇ ਬਲੌਗ</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+/* TOP BAR */
+.nav{
+    background:#800000;
+    padding:12px;
+    text-align:center;
+}
+.nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* PAGE BOX */
+.page-box{
+    max-width:900px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+}
+
+/* BLOG LIST */
+.blog-list a{
+    display:block;
+    padding:10px;
+    border-bottom:1px solid #ddd;
+    color:#800000;
+    text-decoration:none;
+}
+.blog-list a:hover{
+    background:#f7f7f7;
+}
+</style>
 </head>
-<body>{
-   background-color: #f9f9f9;
-      text-align: center;
-      padding: 40px;
-    }
-    h1 {
-      color: #b22222;
-    }
-    p {
-      font-size: 18px;
-    }
-    .box {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      display: inline-block;
 
-<a href="index.html">⬅ ਮੁੱਖ ਸਫ਼ਾ</a>
+<body>
 
-<h1>📚 ਮੇਰੇ ਸਾਰੇ ਲੇਖ</h1>
+<!-- MENU -->
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</div>
 
-<ul>
-  <li><a href="blogs/post1.html">ਹੱਥ ਕਢਾਈ ਦੀ ਮਹੱਤਤਾ</a></li>
-  <li><a href="blogs/post2.html">ਪੰਜਾਬੀ ਕਲਾ ਅਤੇ ਵਿਰਾਸਤ</a></li>
-  <li><a href="blogs/post3.html">ਪੰਜਾਬੀ ਕਢਾਈ ਦੇ ਨਵੇਂ ਡਿਜ਼ਾਇਨ</a></li>
-</ul>
+<!-- CONTENT -->
+<div class="page-box">
+
+<h1>📚 ਮੇਰੇ ਸਾਰੇ ਬਲੌਗ</h1>
+
+<div class="blog-list">
+    <a href="blog1.html">ਹੱਥ ਕਢਾਈ ਦੀ ਮਹੱਤਤਾ</a>
+    <a href="blog2.html">ਪੰਜਾਬੀ ਕਢਾਈ ਅਤੇ ਵਿਰਾਸਤ</a>
+    <a href="blog3.html">ਪੰਜਾਬੀ ਕਢਾਈ ਦੇ ਨਵੇਂ ਡਿਜ਼ਾਇਨ</a>
+</div>
+
+</div>
 
 </body>
 </html>
