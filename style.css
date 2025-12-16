@@ -1,3 +1,4 @@
+/* RESET */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -6,14 +7,13 @@ body {
 /* HEADER */
 .top-header {
   background: linear-gradient(90deg, #7b0000, #b30000);
-  color: white;
-  padding: 14px 30px;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 14px 30px;
 }
 
-/* LOGO */
 .logo {
   font-size: 22px;
   font-weight: bold;
@@ -27,7 +27,7 @@ body {
 
 .nav-menu a,
 .dropbtn {
-  color: white;
+  color: #fff;
   text-decoration: none;
   margin-left: 20px;
   font-size: 16px;
@@ -44,9 +44,9 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background: white;
+  background: #fff;
   min-width: 180px;
-  top: 30px;
+  top: 35px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   border-radius: 6px;
   z-index: 999;
