@@ -97,11 +97,10 @@ body {
   color: #555;
 }
 
-footer {
-  text-align: center;
-  padding: 15px;
-  background: #ddd;
-  margin-top: 40px;
+footer{
+  background: #8b0000;
+  color: #fff;
+}
 }
 .page-header {
   background: #8b0000;
@@ -144,5 +143,10 @@ footer {
 }
 .nav-menu a.active {
   border-bottom: 2px solid #fff;
+}
+.mission-box{
+  background: #8b0000;   /* same red */
+  color: #fff;
+  border-left: 4px solid #fff;
 }
 
