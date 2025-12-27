@@ -171,7 +171,25 @@ background:#1e8449;color:white;text-decoration:none;border-radius:5px;">
 </div>
 
 <a href="button.html">ਮੁੱਖ ਸਫ਼ਾ ‘ਤੇ ਵਾਪਸ</a>
-<a href="comment.html" class="back-home">ਟਿੱਪਣੀ ਕਰੋ</a>
+<h3>ਟਿੱਪਣੀਆਂ</h3>
+
+<div id="disqus_thread"></div>
+
+<script>
+var disqus_config = function () {
+  this.page.url = window.location.href;
+  this.page.identifier = "blog-hath-kadhai";
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://kotkapura19-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+
+<noscript>JavaScript enable ਕਰੋ ਤਾਂ ਜੋ comment ਦਿਖਣ</noscript>
 
 <footer>
     © 2025 ਮੇਰਾ ਪੰਜਾਬੀ ਬਲੌਗ | ਸਭ ਹੱਕ ਰਾਖਵੇਂ
