@@ -184,12 +184,10 @@ footer{
         border-bottom:1px solid #eee;
     }
 
-    .back-home{
-        width:90%;
-        text-align:center;
-        font-size:16px;
-        padding:14px 0;
-    }
+    ..back-button-container {
+  text-align: center;
+  margin-top: 30px;
+}
 }
 .submit-btn {
   background-color: #0b5394;
