@@ -235,4 +235,15 @@ body {
 .read-more:hover{
   text-decoration:underline;
 }
+/* Back & Next links color fix */
+a {
+  color: #ffd700;   /* Golden color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffffff;  /* Hover 'ਤੇ white */
+  text-decoration: underline;
+}
 
