@@ -228,12 +228,18 @@ body {
     line-height: 1.8;
 }
 .read-more{
-  color:#8b0000;
+  display:inline-block;
+  margin-top:10px;
+  color:#ffd700;          /* golden – clear visible */
+  font-weight:600;
   text-decoration:none;
-  font-weight:bold;
 }
+
 .read-more:hover{
+  color:#ffffff;
   text-decoration:underline;
+}
+
 }
 /* Back & Next links color fix */
 a {
