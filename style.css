@@ -246,4 +246,21 @@ body {
     background-color: #8b0000;   /* Dark Maroon */
     color: #ffffff;
 }
+a{
+    color:#ffd9d9;        /* soft white-pink */
+    text-decoration:none;
+    font-weight:600;
+}
+
+a:hover{
+    color:#ffffff;
+    text-decoration:underline;
+}
+.about-container{
+    max-width:900px;
+    margin:60px auto;
+    padding:40px;
+    background:rgba(0,0,0,0.08);
+    border-radius:12px;
+}
 
