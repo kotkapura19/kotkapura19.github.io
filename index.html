@@ -128,10 +128,20 @@
 
 <script>
     // Punjabi Date
-    const today = new Date();
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    document.getElementById("todayDate").innerText =
-        "📅 ਅੱਜ ਦੀ ਤਾਰੀਖ: " + today.toLocaleDateString('pa-IN', options);
+    <script>
+  const today = new Date();
+  const months = [
+    "ਜਨਵਰੀ", "ਫ਼ਰਵਰੀ", "ਮਾਰਚ", "ਅਪ੍ਰੈਲ",
+    "ਮਈ", "ਜੂਨ", "ਜੁਲਾਈ", "ਅਗਸਤ",
+    "ਸਤੰਬਰ", "ਅਕਤੂਬਰ", "ਨਵੰਬਰ", "ਦਸੰਬਰ"
+  ];
+
+  const day = today.getDate();
+  const month = months[today.getMonth()];
+  const year = today.getFullYear();
+
+  document.getElementById("date").innerText =
+    "ਅੱਜ ਦੀ ਤਾਰੀਖ: " + day + " " + month + " " + year;
 
     // WhatsApp Share
     function shareWhatsApp() {
