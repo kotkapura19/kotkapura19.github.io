@@ -1,0 +1,15 @@
+.hukamnama-btn{
+  display:inline-block;
+  background:#4caf75;
+  color:#fff;
+  padding:12px 20px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  margin-top:10px;
+}
+
+.hukamnama-btn:hover{
+  background:#3c8f63;
+}
+
