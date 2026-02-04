@@ -129,19 +129,41 @@
 <script>
     // Punjabi Date
   const today = new Date();
+
   const months = [
     "ਜਨਵਰੀ", "ਫ਼ਰਵਰੀ", "ਮਾਰਚ", "ਅਪ੍ਰੈਲ",
     "ਮਈ", "ਜੂਨ", "ਜੁਲਾਈ", "ਅਗਸਤ",
     "ਸਤੰਬਰ", "ਅਕਤੂਬਰ", "ਨਵੰਬਰ", "ਦਸੰਬਰ"
   ];
 
-  const day = today.getDate();
+  const punjabiNumbers = ["੦","੧","੨","੩","੪","੫","੬","੭","੮","੯"];
+
+  function toPunjabi(num) {
+    return num.toString().split("").map(d => punjabiNumbers[d]).join("");
+  }
+
+  const day = toPunjabi(today.getDate());
   const month = months[today.getMonth()];
-  const year = today.getFullYear();
+  const year = toPunjabi(today.getFullYear());
 
   document.getElementById("date").innerText =
-    "ਅੱਜ ਦੀ ਤਾਰੀਖ: " + day + " " + month + " " + year;    
-<script>
+    "ਅੱਜ ਦੀ ਤਾਰੀਖ: " + day + " " + month + " " + year; 
+     <script>
+  // Daily Auto Quote System
+  const quotes = [
+    "ਨਾਮ ਸਿਮਰਨ ਨਾਲ ਮਨ ਨੂੰ ਸ਼ਾਂਤੀ ਮਿਲਦੀ ਹੈ।",
+    "ਸਬਰ ਅਤੇ ਵਿਸ਼ਵਾਸ ਜੀਵਨ ਨੂੰ ਸੁਖਮਈ ਬਣਾਂਦੇ ਹਨ।",
+    "ਵਾਹਿਗੁਰੂ 'ਤੇ ਭਰੋਸਾ ਹੀ ਸਭ ਤੋਂ ਵੱਡੀ ਤਾਕਤ ਹੈ।",
+    "ਨਿਮਰਤਾ ਮਨੁੱਖ ਨੂੰ ਅੰਦਰੋਂ ਮਹਾਨ ਬਣਾਂਦੀ ਹੈ।",
+    "ਸੱਚ ਅਤੇ ਸੇਵਾ ਨਾਲ ਜੀਵਨ ਸਫਲ ਹੁੰਦਾ ਹੈ।",
+    "ਦੁੱਖ ਵੀ ਸਾਨੂੰ ਰੱਬ ਦੇ ਨੇੜੇ ਲੈ ਜਾਂਦਾ ਹੈ।",
+    "ਹਰ ਸਾਹ ਨਾਲ ਵਾਹਿਗੁਰੂ ਦਾ ਨਾਮ ਯਾਦ ਕਰੋ।"
+  ];
+
+  const dayIndex = new Date().getDate() % quotes.length;
+  document.getElementById("quoteText").innerText = quotes[dayIndex];
+</script>
+    <script>
     // WhatsApp Share
     function shareWhatsApp() {
         const text = document.getElementById("quoteText").innerText;
