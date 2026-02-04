@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>ਗੁਰਬਾਣੀ ਵਿਚਾਰਾਂ ਨਾਲ ਸਕਾਰਾਤਮਕ ਜ਼ਿੰਦਗੀ</title>
+
+    <!-- SEO -->
+    <meta name="description" content="ਗੁਰਬਾਣੀ ਦੇ ਵਿਚਾਰਾਂ ਨਾਲ ਸਕਾਰਾਤਮਕ ਜੀਵਨ। ਰੋਜ਼ਾਨਾ Punjabi Gurbani Quotes, Positive Thoughts ਅਤੇ ਸ਼ਾਂਤੀ ਭਰਿਆ ਸੁਨੇਹਾ।">
+    <meta name="keywords" content="Punjabi Gurbani Quotes, ਗੁਰਬਾਣੀ ਵਿਚਾਰ, Punjabi Positive Thoughts, Sikh Quotes Punjabi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
             margin: 0;
@@ -23,8 +28,13 @@
             font-size: 2rem;
         }
         header p {
-            margin-top: 10px;
+            margin-top: 8px;
             font-size: 1.1rem;
+        }
+        .date {
+            margin-top: 10px;
+            font-size: 1rem;
+            opacity: 0.9;
         }
         .container {
             max-width: 900px;
@@ -42,6 +52,18 @@
             margin-top: 0;
             color: #2f7d5a;
         }
+        .share {
+            margin-top: 15px;
+        }
+        .share a {
+            display: inline-block;
+            background: #25D366;
+            color: #ffffff;
+            padding: 8px 14px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
         footer {
             background: #e1f2ea;
             text-align: center;
@@ -51,20 +73,26 @@
         }
     </style>
 </head>
+
 <body>
 
 <header>
     <h1>ਗੁਰਬਾਣੀ ਵਿਚਾਰਾਂ ਨਾਲ ਸਕਾਰਾਤਮਕ ਜ਼ਿੰਦਗੀ</h1>
     <p>ਰੋਜ਼ਾਨਾ ਗੁਰਬਾਣੀ ਦੀ ਸਿਆਣਪ ਅਤੇ ਸਕਾਰਾਤਮਕ ਸੋਚ</p>
+    <div class="date" id="todayDate"></div>
 </header>
 
 <div class="container">
 
     <div class="box">
         <h2>🌸 ਅੱਜ ਦਾ ਸੁਨੇਹਾ</h2>
-        <p>
+        <p id="quoteText">
             “ਨਾਮ ਸਿਮਰਨ ਨਾਲ ਮਨ ਨੂੰ ਸ਼ਾਂਤੀ ਮਿਲਦੀ ਹੈ ਅਤੇ ਜੀਵਨ ਨੂੰ ਸਹੀ ਦਿਸ਼ਾ ਪ੍ਰਾਪਤ ਹੁੰਦੀ ਹੈ।”
         </p>
+
+        <div class="share">
+            <a href="#" onclick="shareWhatsApp()">📤 WhatsApp ਤੇ ਸਾਂਝਾ ਕਰੋ</a>
+        </div>
     </div>
 
     <div class="box">
@@ -88,16 +116,7 @@
     <div class="box">
         <h2>🌼 ਅੱਜ ਦੀ ਪ੍ਰੇਰਣਾ</h2>
         <p>
-            ਆਪਣੇ ਮਨ ਨੂੰ ਸਾਫ ਰੱਖੋ, ਗੁਰਬਾਣੀ ਨਾਲ ਜੁੜੇ ਰਹੋ,
-            ਬਾਕੀ ਸਭ ਕੁਝ ਆਪ ਹੀ ਸਹੀ ਹੋ ਜਾਵੇਗਾ।
-        </p>
-    </div>
-
-    <div class="box">
-        <h2>📌 ਸਾਡੇ ਬਾਰੇ</h2>
-        <p>
-            ਇਹ ਵੈਬਸਾਈਟ ਗੁਰਬਾਣੀ ਦੇ ਵਿਚਾਰਾਂ ਰਾਹੀਂ
-            ਜੀਵਨ ਵਿੱਚ ਸਕਾਰਾਤਮਕਤਾ, ਸ਼ਾਂਤੀ ਅਤੇ ਸਹੀ ਸੋਚ ਲਿਆਉਣ ਲਈ ਬਣਾਈ ਗਈ ਹੈ।
+            ਗੁਰਬਾਣੀ ਨਾਲ ਜੁੜ ਕੇ ਜੀਵਨ ਨੂੰ ਸੁਚੱਜਾ ਅਤੇ ਸ਼ਾਂਤ ਬਣਾਓ।
         </p>
     </div>
 
@@ -106,6 +125,22 @@
 <footer>
     🙏 ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ | ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹਿ
 </footer>
+
+<script>
+    // Punjabi Date
+    const today = new Date();
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById("todayDate").innerText =
+        "📅 ਅੱਜ ਦੀ ਤਾਰੀਖ: " + today.toLocaleDateString('pa-IN', options);
+
+    // WhatsApp Share
+    function shareWhatsApp() {
+        const text = document.getElementById("quoteText").innerText;
+        const url = window.location.href;
+        const shareUrl = "https://wa.me/?text=" + encodeURIComponent(text + "\n\n" + url);
+        window.open(shareUrl, "_blank");
+    }
+</script>
 
 </body>
 </html>
