@@ -12,4 +12,12 @@
 .hukamnama-btn:hover{
   background:#3c8f63;
 }
+.hukamnama-card{
+  margin-top:30px;
+  margin-bottom:40px;
+}
+
+.card{
+  clear:both;
+}
 
