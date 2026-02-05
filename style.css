@@ -20,5 +20,9 @@
 .card{
   clear:both;
 }
+.card {
+  width: 100%;
+  box-sizing: border-box;
+}
 
 
