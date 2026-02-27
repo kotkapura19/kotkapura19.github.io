@@ -10,7 +10,40 @@
 <body style="font-family: Arial; line-height: 1.6; padding: 20px;">
 
 <h1>About Us</h1>
+<div style="max-width:900px; margin:40px auto; padding:20px; line-height:1.8; font-family:Segoe UI, sans-serif;">
 
+  <h1 style="color:#0b5d1e; text-align:center;">About Gurbani Vichar</h1>
+
+  <p>
+    Gurbani Vichar ik spiritual website hai jithe asi Gurbani di saral te samajh yog vyakhya Punjabi bhasha vich sanjhi karde haan.
+    Sada maksad hai ki har vyakti Gurbani de arth nu asaani naal samajh sake te apni zindagi vich lagu kar sake.
+  </p>
+
+  <p>
+    Is website te tusi Mool Mantar, Japji Sahib de parts, Nitnem Banian da mahatva,
+    te hor Gurbani sambandhit lekh padh sakde ho.
+  </p>
+
+  <p>
+    Asi eh seva Waheguru ji di kirpa naal bina kise galat jaankari de,
+    pavitar te sachchi soch de naal prastut kar rahe haan.
+  </p>
+
+  <h2 style="color:#0b5d1e;">Our Mission</h2>
+
+  <p>
+    Sada mission hai Gurbani di roshni nu duniya bhar vich phailana,
+    te har ghar tak Guru Sahib di bani pahunchani.
+  </p>
+
+  <h2 style="color:#0b5d1e;">Contact</h2>
+
+  <p>
+    Je tusi sade naal sampark karna chaunde ho,
+    tusi Contact page de through message bhej sakde ho.
+  </p>
+
+</div>
 <p>Welcome to <strong>Gurbani Vichar</strong>.</p>
 
 <p>Our mission is to share daily Gurbani Vichar with meaning in Punjabi and English. 
