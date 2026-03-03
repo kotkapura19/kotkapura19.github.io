@@ -25,4 +25,14 @@
   box-sizing: border-box;
 }
 
+<style>
+.logo img {
+  height: 70px;
+  width: auto;
+}
 
+.logo {
+  text-align: center;
+  padding: 10px 0;
+}
+</style>
