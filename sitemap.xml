@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://kotkapura19.github.io/</loc>
-  </url>
 <url>
-<loc>https://kotkapura19.github.io/mool-mantar.html</loc>
+  <loc>https://kotkapura19.github.io/</loc>
 </url>
-  <url>
-<loc>https://kotkapura19.github.io/guru-nanak-dev-ji.html</loc>
-</url>
+
 <url>
-<loc>https://kotkapura19.github.io/japji-sahib-arth.html</loc>
-</url
-  <url>
-<loc>https://kotkapura19.github.io/japji-sahib-part-2.html</loc>
+  <loc>https://kotkapura19.github.io/japji1.html</loc>
 </url>
-  <url>
-<loc>https://kotkapura19.github.io/japji-sahib-part-3.html</loc>
+
+<url>
+  <loc>https://kotkapura19.github.io/japji-sahib-part-2.html</loc>
 </url>
-  <url>
-<loc>https://kotkapura19.github.io/nitnem-banian-da-mahatva.html</loc>
+
+<url>
+  <loc>https://kotkapura19.github.io/japji-sahib-part-3.html</loc>
+</url>
+
+<url>
+  <loc>https://kotkapura19.github.io/japji-sahib-part-4-5.html</loc>
+</url>
+
+<url>
+  <loc>https://kotkapura19.github.io/japji-sahib-part-6-7.html</loc>
 </url>
 
 </urlset>
