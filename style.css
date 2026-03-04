@@ -36,3 +36,41 @@
   padding: 10px 0;
 }
 </style>
+/* ===== Sidebar ===== */
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  margin-right: 20px;
+}
+
+.sidebar button {
+  width: 100%;
+  background-color: #0f5132;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar-content {
+  display: none;
+  background-color: #d4edda;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.sidebar-content a {
+  display: block;
+  padding: 6px 0;
+  text-decoration: none;
+  color: #1b5e20;
+}
+
+.sidebar-content a:hover {
+  text-decoration: underline;
+}
