@@ -5,7 +5,7 @@ audio.id = "simranAudio";
 audio.loop = true;
 
 var source = document.createElement("source");
-source.src = "simran.mp3";
+source.src = "Waheguru Simran.mp3";
 source.type = "audio/mpeg";
 
 audio.appendChild(source);
