@@ -168,6 +168,42 @@ function googleTranslateElementInit() {
   <a href="mool-mantar.html">← Previous</a>
     <a href="index.html">Home </a>
   <a href="japji-sahib-part-2.html">Next →</a>
+<!-- Simran Audio -->
+<audio id="simranAudio" loop>
+  <source src="Waheguru Simran.mp3" type="audio/mpeg">
+</audio>
 
+<!-- Floating Simran Button -->
+<button id="simranBtn" onclick="toggleSimran()">🪔 Simran ON</button>
+
+<style>
+#simranBtn{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#ff9933;
+  color:white;
+  border:none;
+  padding:12px 18px;
+  font-size:16px;
+  border-radius:30px;
+  cursor:pointer;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+</style>
+
+<script>
+function toggleSimran(){
+var audio=document.getElementById("simranAudio");
+var btn=document.getElementById("simranBtn");
+
+if(audio.paused){
+audio.play();
+btn.innerHTML="🔇 Simran OFF";
+}
+else{
+audio.pause();
+btn.innerHTML="🪔 Simran ON";
+}
 </body>
 </html>
