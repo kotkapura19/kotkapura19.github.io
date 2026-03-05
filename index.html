@@ -152,6 +152,11 @@ body {
           </head>
  <style>
 body {
+     <audio id="simranAudio" loop>
+  <source src="simran.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="toggleSimran()">Simran ON / OFF</button>
     <style>
         body {
                 <h1 style="font-size:42px; margin-bottom:20px;">
@@ -500,15 +505,18 @@ function googleTranslateElementInit() {
 </script>
 
 </div></div>
-  <audio id="simran-audio" loop>
-  <source src="Waheguru Simran.mp3" type="audio/mpeg">
-</audio>
+ <script>
+function toggleSimran() {
+  var audio = document.getElementById("simranAudio");
 
-<script>
-document.addEventListener("click", function() {
-  var audio = document.getElementById("simran-audio");
-  audio.play();
-});
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
+}
+</script>
+}
 </script>  
 <p>Follow us for daily Gurbani Vichar</p>
      <footer>
