@@ -409,7 +409,11 @@ function googleTranslateElementInit() {
 
 </div>
     </div>
+<div class="container">
+  <h2>ਜਪੁਜੀ ਸਾਹਿਬ ਪਉੜੀਆਂ</h2>
 
+  <div id="japji-list"></div>
+</div>
     <div class="box">
         <h2>🌼 ਅੱਜ ਦੀ ਪ੍ਰੇਰਣਾ</h2>
         <p>
@@ -548,6 +552,21 @@ btn.innerHTML="🪔 Simran ON";
      <footer>
           © 2026 Gurbani Vichar | All Rights Reserved
      </footer>
-       
+     <script>
+let container = document.getElementById("japji-list");
+
+for(let i = 1; i <= 38; i++){
+
+  let card = document.createElement("div");
+  card.className = "card";
+
+  card.innerHTML = `
+    <h3>ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ${i}</h3>
+    <a href="japji-sahib-part-${i}.html">Read Full Article →</a>
+  `;
+
+  container.appendChild(card);
+}
+</script>  
 </body>
 </html>
