@@ -81,3 +81,21 @@
   border-radius:10px;
   box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
+body{
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Khanda.svg/512px-Khanda.svg.png");
+background-repeat:no-repeat;
+background-position:center;
+background-size:400px;
+background-attachment:fixed;
+}
+
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(255,215,0,0.08);
+pointer-events:none;
+}
