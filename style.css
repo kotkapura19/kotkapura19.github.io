@@ -128,23 +128,3 @@ pointer-events:none;
 .nav-btn:hover {
   background-color: #2e7d32;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-  padding: 10px;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-p {
-  word-wrap: break-word;
-}
-body { overflow-x: hidden; }
-img { max-width: 100%; }
