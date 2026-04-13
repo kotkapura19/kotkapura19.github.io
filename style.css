@@ -128,3 +128,23 @@ pointer-events:none;
 .nav-btn:hover {
   background-color: #2e7d32;
 }
+.top-menu{
+  position:sticky;
+  top:0;
+  background:#0f5132;
+  padding:12px;
+  text-align:center;
+  z-index:1000;
+}
+
+.top-menu a{
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:15px;
+}
+
+.top-menu a:hover{
+  color:#ffd700;
+}
