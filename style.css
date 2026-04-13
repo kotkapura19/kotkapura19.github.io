@@ -137,17 +137,26 @@ pointer-events:none;
   z-index:1000;
 }
 
-.top-menu a{
-  color:white;
-  margin:0 15px;
-  text-decoration:none;
-  font-weight:bold;
-  font-size:15px;
+.gurbani-menu{
+  background:#f1f8f4;
+  padding:10px;
+  overflow-x:auto;
+  white-space:nowrap;
+  border-bottom:2px solid #0f5132;
 }
 
-.top-menu a:hover{
-  color:#ffd700;
+.gurbani-menu a{
+  display:inline-block;
+  margin-right:20px;
+  color:#0f5132;
+  font-weight:bold;
+  text-decoration:none;
+  padding:6px 12px;
+  border-radius:20px;
+  transition:0.3s;
 }
-html {
-  scroll-behavior: smooth;
+
+.gurbani-menu a:hover{
+  background:#0f5132;
+  color:white;
 }
