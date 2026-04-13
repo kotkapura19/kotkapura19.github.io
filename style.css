@@ -128,35 +128,55 @@ pointer-events:none;
 .nav-btn:hover {
   background-color: #2e7d32;
 }
-.top-menu{
-  position:sticky;
-  top:0;
-  background:#0f5132;
-  padding:12px;
-  text-align:center;
-  z-index:1000;
+.top-nav{
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,0.8);
+backdrop-filter:blur(15px);
+padding:12px 20px;
+z-index:9999;
+flex-wrap:wrap;
 }
 
-.gurbani-menu{
-  background:#f1f8f4;
-  padding:10px;
-  overflow-x:auto;
-  white-space:nowrap;
-  border-bottom:2px solid #0f5132;
+.top-nav a{
+color:#fff;
+text-decoration:none;
+margin:5px 10px;
+font-size:14px;
+transition:0.3s;
 }
 
-.gurbani-menu a{
-  display:inline-block;
-  margin-right:20px;
-  color:#0f5132;
-  font-weight:bold;
-  text-decoration:none;
-  padding:6px 12px;
-  border-radius:20px;
-  transition:0.3s;
+.top-nav a:hover{
+color:#00c853;
 }
 
-.gurbani-menu a:hover{
+/* Left menu */
+.menu-left{
+display:flex;
+flex-wrap:wrap;
+}
+
+/* Right Gurbani menu */
+.menu-right{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+/* Mobile responsive */
+@media(max-width:768px){
+.top-nav{
+flex-direction:column;
+text-align:center;
+}
+
+.menu-right{
+margin-top:8px;
+}
+}a:hover{
   background:#0f5132;
   color:white;
 }
