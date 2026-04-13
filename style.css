@@ -148,3 +148,6 @@ pointer-events:none;
 .top-menu a:hover{
   color:#ffd700;
 }
+html {
+  scroll-behavior: smooth;
+}
