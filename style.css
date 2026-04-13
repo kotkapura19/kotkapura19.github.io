@@ -128,3 +128,25 @@ pointer-events:none;
 .nav-btn:hover {
   background-color: #2e7d32;
 }
+.gurbani-menu {
+  background: #14532d;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gurbani-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.gurbani-menu a:hover {
+  background: #22c55e;
+  color: white;
+}
