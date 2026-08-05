@@ -2,181 +2,375 @@
 <html lang="pa">
 <head>
 <meta charset="UTF-8">
-<title>Japji Sahib Da Arth (Part 9) - Gurbani Vichar</title>
-<meta name="description" content="Japji Sahib Pauri 29 to 32 di vyakhya Punjabi vich. Gurbani arth, Sikh teachings ate spiritual meaning." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ਪਉੜੀ 28 ਤੋਂ 38 ਦੀ ਵਿਆਖਿਆ | Gurbani Vichar</title>
+
+<meta name="description" content="ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ਦੀਆਂ ਪਉੜੀਆਂ 28 ਤੋਂ 38 ਦਾ ਪਾਠ ਅਤੇ ਸਰਲ ਪੰਜਾਬੀ ਵਿਆਖਿਆ। Gurbani Vichar.">
+<meta name="keywords" content="Japji Sahib Pauri 28, Japji Sahib Pauri 29, Japji Sahib Pauri 30, Japji Sahib Pauri 31, Japji Sahib Pauri 32, Japji Sahib Pauri 33, Japji Sahib Pauri 34, Japji Sahib Pauri 35, Japji Sahib Pauri 36, Japji Sahib Pauri 37, Japji Sahib Pauri 38, ਜਪੁਜੀ ਸਾਹਿਬ ਵਿਆਖਿਆ">
+
 <style>
+*{box-sizing:border-box;}
+
 body{
-font-family: Arial, sans-serif;
-line-height:1.9;
-max-width:900px;
-margin:auto;
-padding:20px;
-background-color:#e8f5e9;
+    margin:0;
+    background:#eaf6eb;
+    color:#111;
+    font-family:"Noto Serif Gurmukhi","Raavi","Segoe UI",serif;
+    line-height:1.9;
 }
 
-h1{
-color:#1b5e20;
+/* Same simple green heading style */
+header{
+    max-width:900px;
+    margin:auto;
+    padding:12px 20px 5px;
+    text-align:center;
 }
 
-h2{
-color:#2e7d32;
-margin-top:30px;
-}
-</style>
-  <style>
-.post-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 0;
+header h1{
+    margin:0;
+    color:#176b2c;
+    font-size:30px;
 }
 
-.post-nav a {
-  background-color: #0f5132;
-  color: white;
-  padding: 10px 18px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 14px;
-  transition: 0.3s;
+header p{
+    margin:5px 0;
+    color:#176b2c;
 }
 
-.post-nav a:hover {
-  background-color: #198754;
-}
-    <div class="logo">
-  <img src="logo.png" alt="Gurbani Vichar Logo">
-</div>
-    <div class="translate-box">
-  <div id="google_translate_element"></div>
-</div>
-</style>
-  <script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "BreadcrumbList",
- "itemListElement": [{
-   "@type": "ListItem",
-   "position": 1,
-   "name": "Home",
-   "item": "https://kotkapura19.github.io/"
- },{
-   "@type": "ListItem",
-   "position": 2,
-   "name": "Japji Sahib Part 1",
-   "item": "https://kotkapura19.github.io/japji1.html"
- }]
-}
-</script>
-  <style>
-.translate-box {
-  text-align: right;
-  padding: 10px 20px;
-  background: #f4f7f6;
+/* Top navigation */
+.nav{
+    max-width:900px;
+    margin:0 auto 15px;
+    padding:10px 15px;
+    text-align:center;
 }
 
-#google_translate_element select {
-  padding: 5px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+.nav a{
+    display:inline-block;
+    margin:5px;
+    padding:7px 13px;
+    color:white;
+    background:#2f7d5a;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.nav a:hover{
+    background:#0f5132;
+}
+
+/* Main content - intentionally narrow like the old pages */
+.container{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    padding:5px 0 60px;
+}
+
+.section-title{
+    color:#176b2c;
+    font-size:26px;
+    margin:28px 0 15px;
+}
+
+.pauri{
+    margin-bottom:45px;
+}
+
+.pauri-title{
+    color:#16802d;
+    font-size:26px;
+    margin:0 0 20px;
+}
+
+.gurbani{
+    font-weight:bold;
+    font-size:18px;
+    color:#050505;
+    margin:0 0 28px;
+}
+
+.line{
+    margin:0 0 24px;
+}
+
+.line strong{
+    display:block;
+    font-size:18px;
+    color:#050505;
+    margin-bottom:4px;
+}
+
+.meaning{
+    font-size:17px;
+    margin:0;
+}
+
+.niskarsh{
+    margin:35px 0 45px;
+}
+
+.niskarsh h2{
+    color:#16802d;
+    font-size:25px;
+}
+
+.niskarsh p{
+    font-size:17px;
+}
+
+footer{
+    background:#0f5132;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Simran */
+#simranBtn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#ff9933;
+    color:white;
+    border:none;
+    padding:11px 18px;
+    font-size:15px;
+    border-radius:30px;
+    cursor:pointer;
+    box-shadow:0 4px 10px rgba(0,0,0,.3);
+    z-index:1000;
+}
+
+@media(max-width:700px){
+    header h1{font-size:24px;}
+    .container{width:94%;}
+    .gurbani,.line strong{font-size:17px;}
+    .meaning{font-size:16px;}
+    .nav a{font-size:14px;}
 }
 </style>
 </head>
 
 <body>
- <div id="google_translate_element"></div>
 
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement(
-    {pageLanguage: 'pa'}, 
-    'google_translate_element'
-  );
-}
-</script>
+<header>
+    <h1>🌸 ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ਪਉੜੀ 28 ਤੋਂ 38 ਦੀ ਵਿਆਖਿਆ</h1>
+    <p>ਗੁਰਬਾਣੀ ਦੀ ਸਰਲ ਪੰਜਾਬੀ ਵਿਆਖਿਆ</p>
+</header>
 
-<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<div class="nav">
+    <a href="index.html">🏠 Home</a>
+    <a href="japji-sahib-arth.html">📖 ਪਉੜੀ 1-?</a>
+    <a href="japji-sahib-part-10.html">📖 ਪਿਛਲਾ ਭਾਗ</a>
+</div>
 
-<h1>ਜਪੁਜੀ ਸਾਹਿਬ ਦਾ ਅਰਥ –ਪਉੜੀ 2 ਤੇ 3</h1>
+<main class="container">
 
-<p>ਜਪੁਜੀ ਸਾਹਿਬ ਦੀਆਂ ਹਰ ਪਉੜੀਆਂ ਸਾਨੂੰ ਰੱਬ ਦੀ ਮਹਿਮਾ ਤੇ ਹੁਕਮ ਦੀ ਸਮਝ ਦਿੰਦੀਆਂ ਹਨ। ਹੁਣ ਅਸੀਂ ਪਉੜੀ 2 ਤੇ 3 ਦੀ ਸਰਲ ਵਿਆਖਿਆ ਸਮਝਦੇ ਹਾਂ।</p>
+<!-- PAURI 28 -->
+<section class="pauri" id="pauri-28">
+<h2 class="pauri-title">🌸 ਪਉੜੀ ੨੮</h2>
 
-<h2>ਪਉੜੀ 2</h2>
-
-<p><strong>
-ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥</strong> <br>
-  <p>ਇਸ ਪੰਕਤੀ ਦਾ ਅਰਥ ਹੈ ਕਿ ਇਸ ਸ੍ਰਿਸ਼ਟੀ ਵਿੱਚ ਜੋ ਕੁਝ ਵੀ ਬਣਿਆ ਹੈ, ਉਹ ਸਭ ਵਾਹਿਗੁਰੂ ਦੇ ਹੁਕਮ ਨਾਲ ਹੀ ਬਣਿਆ ਹੈ। 
-  ਪਰਮਾਤਮਾ ਦਾ ਹੁਕਮ ਬਹੁਤ ਵਿਸ਼ਾਲ ਹੈ ਅਤੇ ਉਸਦੀ ਪੂਰੀ ਵਿਆਖਿਆ ਕਰਨਾ ਮਨੁੱਖ ਲਈ ਆਸਾਨ ਨਹੀਂ।<br></p>
-<strong>ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥</strong> <br>
-  <p>ਸਾਰੇ ਜੀਵ ਵੀ ਵਾਹਿਗੁਰੂ ਦੇ ਹੁਕਮ ਨਾਲ ਹੀ ਪੈਦਾ ਹੁੰਦੇ ਹਨ। ਜਿਸ ਮਨੁੱਖ ਉੱਤੇ ਰੱਬ ਦੀ ਮਿਹਰ ਹੁੰਦੀ ਹੈ, ਉਸ ਨੂੰ ਇੱਜ਼ਤ ਅਤੇ ਵਡਿਆਈ ਵੀ ਉਸਦੇ ਹੁਕਮ ਨਾਲ ਹੀ ਮਿਲਦੀ ਹੈ।<br></p>
-<strong>ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥</strong> <br>
-  <p>ਵਾਹਿਗੁਰੂ ਦੇ ਹੁਕਮ ਨਾਲ ਹੀ ਕੋਈ ਉੱਚਾ ਜਾਂ ਨੀਵਾ ਬਣਦਾ ਹੈ। ਮਨੁੱਖ ਦੇ ਜੀਵਨ ਵਿੱਚ ਜੋ ਦੁੱਖ ਤੇ ਸੁੱਖ ਆਉਂਦੇ ਹਨ, ਉਹ ਵੀ ਉਸੇ ਦੇ ਹੁਕਮ ਅਨੁਸਾਰ ਹੁੰਦੇ ਹਨ।<br></p>
-<strong>ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥</strong> <br>
-  <p>ਕੁਝ ਲੋਕਾਂ ਨੂੰ ਵਾਹਿਗੁਰੂ ਦੇ ਹੁਕਮ ਨਾਲ ਕਿਰਪਾ ਅਤੇ ਬਖ਼ਸ਼ਿਸ਼ ਮਿਲਦੀ ਹੈ, ਜਦਕਿ ਕੁਝ ਲੋਕ ਆਪਣੇ ਕਰਮਾਂ ਕਰਕੇ ਸੰਸਾਰ ਵਿੱਚ ਭਟਕਦੇ ਰਹਿੰਦੇ ਹਨ।<br></p>
-<strong>ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥</strong> <br>
-  <p>ਇਸ ਸਾਰੀ ਸ੍ਰਿਸ਼ਟੀ ਵਿੱਚ ਜੋ ਕੁਝ ਵੀ ਹੋ ਰਿਹਾ ਹੈ, ਉਹ ਸਭ ਵਾਹਿਗੁਰੂ ਦੇ ਹੁਕਮ ਦੇ ਅੰਦਰ ਹੀ ਹੈ। ਕੋਈ ਵੀ ਉਸਦੇ ਹੁਕਮ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਜਾ ਸਕਦਾ।<br></p>
-<strong>ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥</strong><br>
-  <p>ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਫਰਮਾਉਂਦੇ ਹਨ ਕਿ ਜੇ ਮਨੁੱਖ ਵਾਹਿਗੁਰੂ ਦੇ ਹੁਕਮ ਨੂੰ ਸਮਝ ਲਵੇ, ਤਾਂ ਉਸਦੇ ਅੰਦਰੋਂ ਹਉਮੈ (ਅਹੰਕਾਰ) ਖਤਮ ਹੋ ਜਾਂਦੀ ਹੈ।<br></p>
-</strong></p>
-
-<h3>ਅਰਥ</h3>
-
-<p>ਇਸ ਪਉੜੀ ਵਿੱਚ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਦੱਸਦੇ ਹਨ ਕਿ ਸਭ ਕੁਝ ਰੱਬ ਦੇ ਹੁਕਮ ਨਾਲ ਹੁੰਦਾ ਹੈ।  
-ਸ੍ਰਿਸ਼ਟੀ ਦੀ ਰਚਨਾ, ਜੀਵਨ, ਸੁਖ-ਦੁੱਖ — ਸਭ ਹੁਕਮ ਅੰਦਰ ਹੈ।</p>
-
-<p>ਜੇ ਅਸੀਂ ਹੁਕਮ ਨੂੰ ਸਮਝ ਲਈਏ ਤਾਂ ਸਾਡੀ ਹਉਮੈ (ਅਹੰਕਾਰ) ਖਤਮ ਹੋ ਸਕਦੀ ਹੈ।</p>
-
-<h2>ਨਿਸਕਰਸ਼</h2>
-<p>
-ਪਉੜੀ 2 ਸਾਨੂੰ ਇਹ ਸਮਝਾਉਂਦੀ ਹੈ ਕਿ ਸਾਰਾ ਸੰਸਾਰ ਰੱਬ ਦੇ ਹੁਕਮ ਅੰਦਰ ਚੱਲ ਰਿਹਾ ਹੈ। 
-ਜੇ ਮਨੁੱਖ ਰੱਬ ਦੇ ਹੁਕਮ ਨੂੰ ਸਮਝ ਲਏ, ਤਾਂ ਉਸਦੀ ਹਉਮੈ ਖਤਮ ਹੋ ਸਕਦੀ ਹੈ ਅਤੇ ਉਹ ਅੰਦਰੋਂ ਸ਼ਾਂਤੀ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦਾ ਹੈ।
+<p class="gurbani">
+ਮੁੰਦਾ ਸੰਤੋਖੁ ਸਰਮੁ ਪਤੁ ਝੋਲੀ ਧਿਆਨ ਕੀ ਕਰਹਿ ਬਿਭੂਤਿ ॥<br>
+ਖਿੰਥਾ ਕਾਲੁ ਕੁਆਰੀ ਕਾਇਆ ਜੁਗਤਿ ਡੰਡਾ ਪਰਤੀਤਿ ॥<br>
+ਆਈ ਪੰਥੀ ਸਗਲ ਜਮਾਤੀ ਮਨਿ ਜੀਤੈ ਜਗੁ ਜੀਤੁ ॥<br>
+ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥<br>
+ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੮॥
 </p>
 
-<h2>ਪਉੜੀ 3</h2>
+<div class="line">
+<strong>ਮੁੰਦਾ ਸੰਤੋਖੁ ਸਰਮੁ ਪਤੁ ਝੋਲੀ ਧਿਆਨ ਕੀ ਕਰਹਿ ਬਿਭੂਤਿ ॥</strong>
+<p class="meaning">ਸੰਤੋਖ ਨੂੰ ਆਪਣੇ ਜੀਵਨ ਦਾ ਗਹਿਣਾ ਬਣਾਓ, ਨਿਮਰਤਾ ਅਤੇ ਮਿਹਨਤ ਨੂੰ ਆਪਣੀ ਝੋਲੀ ਬਣਾਓ ਅਤੇ ਵਾਹਿਗੁਰੂ ਦੇ ਨਾਮ ਦਾ ਧਿਆਨ ਮਨ ਦੀ ਪਵਿੱਤਰਤਾ ਬਣੇ।</p>
+</div>
 
-<p><strong>
-ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥ <br></strong>
-  <p>ਇਸ ਪੰਕਤੀ ਦਾ ਅਰਥ ਹੈ ਕਿ ਕੁਝ ਲੋਕ ਵਾਹਿਗੁਰੂ ਦੀ ਤਾਕਤ ਅਤੇ ਸ਼ਕਤੀ ਦੀ ਸਿਫ਼ਤ ਕਰਦੇ ਹਨ। ਉਹ ਸਮਝਦੇ ਹਨ ਕਿ ਪਰਮਾਤਮਾ ਸਭ ਤੋਂ ਵੱਡਾ ਅਤੇ ਸਭ ਤੋਂ ਤਾਕਤਵਾਨ ਹੈ।<br></p>
-<strong>ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥ <br></strong>
-  <p>ਕੁਝ ਲੋਕ ਵਾਹਿਗੁਰੂ ਦੀ ਦਾਤਾਂ ਅਤੇ ਕਿਰਪਾ ਦੀ ਵਡਿਆਈ ਕਰਦੇ ਹਨ। ਉਹ ਜਾਣਦੇ ਹਨ ਕਿ ਸਾਰੀ ਸ੍ਰਿਸ਼ਟੀ ਨੂੰ ਮਿਲਣ ਵਾਲੀਆਂ ਦਾਤਾਂ ਉਸ ਪਰਮਾਤਮਾ ਦੀ ਮਿਹਰ ਨਾਲ ਹੀ ਮਿਲਦੀਆਂ ਹਨ।<br></p>
-<strong>ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥ <br></strong>
- <p> ਕੁਝ ਲੋਕ ਵਾਹਿਗੁਰੂ ਦੇ ਅਨੇਕਾਂ ਗੁਣਾਂ ਅਤੇ ਵਡਿਆਈਆਂ ਦੀ ਸਿਫ਼ਤ ਕਰਦੇ ਹਨ। ਉਹ ਉਸਦੀ ਮਹਾਨਤਾ ਨੂੰ ਯਾਦ ਕਰਕੇ ਉਸਦੀ ਮਹਿਮਾ ਗਾਉਂਦੇ ਹਨ।<br></p>
-<strong>ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥ <br></strong>
- <p> ਕੁਝ ਵਿਦਵਾਨ ਲੋਕ ਵਾਹਿਗੁਰੂ ਨੂੰ ਗਿਆਨ ਅਤੇ ਡੂੰਘੀ ਸੋਚ ਨਾਲ ਸਮਝਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਨ ਅਤੇ ਉਸਦੀ ਮਹਾਨਤਾ ਬਾਰੇ ਵਿਚਾਰ ਕਰਦੇ ਹਨ।<br></p>
-<strong>ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥ <br></strong>
-  <p>ਕੁਝ ਲੋਕ ਵਾਹਿਗੁਰੂ ਨੂੰ ਇਸ ਤਰ੍ਹਾਂ ਯਾਦ ਕਰਦੇ ਹਨ ਕਿ ਉਸਨੇ ਇਸ ਸ੍ਰਿਸ਼ਟੀ ਨੂੰ ਰਚਿਆ ਹੈ ਅਤੇ ਇੱਕ ਦਿਨ ਇਸ ਨੂੰ ਮਿੱਟੀ ਵਿੱਚ ਮਿਲਾ ਵੀ ਸਕਦਾ ਹੈ।<br></p>
-<strong>ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥ <br></strong>
- <p> ਕੁਝ ਲੋਕ ਕਹਿੰਦੇ ਹਨ ਕਿ ਵਾਹਿਗੁਰੂ ਜੀਵਾਂ ਨੂੰ ਜੀਵਨ ਦਿੰਦਾ ਹੈ ਅਤੇ ਸਮਾਂ ਆਉਣ ਤੇ ਉਹ ਜੀਵਨ ਵਾਪਸ ਵੀ ਲੈ ਲੈਂਦਾ ਹੈ।<br></p>
-<strong>ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥ <br></strong>
- <p> ਕੁਝ ਲੋਕਾਂ ਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਪਰਮਾਤਮਾ ਬਹੁਤ ਦੂਰ ਹੈ ਅਤੇ ਉਸ ਤੱਕ ਪਹੁੰਚਣਾ ਔਖਾ ਹੈ।<br></p>
-<strong>ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥<br></strong>
- <p> ਕੁਝ ਲੋਕ ਵਾਹਿਗੁਰੂ ਨੂੰ ਹਮੇਸ਼ਾਂ ਆਪਣੇ ਕੋਲ ਅਤੇ ਹਰ ਥਾਂ ਮੌਜੂਦ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ।
-</strong></p>
+<div class="line">
+<strong>ਖਿੰਥਾ ਕਾਲੁ ਕੁਆਰੀ ਕਾਇਆ ਜੁਗਤਿ ਡੰਡਾ ਪਰਤੀਤਿ ॥</strong>
+<p class="meaning">ਮੌਤ ਦੀ ਯਾਦ ਮਨੁੱਖ ਨੂੰ ਜੀਵਨ ਦੀ ਅਸਲੀਅਤ ਸਮਝਾਉਂਦੀ ਹੈ। ਪਵਿੱਤਰ ਜੀਵਨ-ਜਾਚ ਅਪਣਾਈਏ ਅਤੇ ਵਾਹਿਗੁਰੂ ਉੱਤੇ ਵਿਸ਼ਵਾਸ ਨੂੰ ਜੀਵਨ ਦਾ ਸਹਾਰਾ ਬਣਾਈਏ।</p>
+</div>
 
-<h3>ਅਰਥ</h3>
+<div class="line">
+<strong>ਆਈ ਪੰਥੀ ਸਗਲ ਜਮਾਤੀ ਮਨਿ ਜੀਤੈ ਜਗੁ ਜੀਤੁ ॥</strong>
+<p class="meaning">ਸਾਰੀ ਮਨੁੱਖਤਾ ਨੂੰ ਆਪਣਾ ਭਾਈਚਾਰਾ ਸਮਝੋ। ਜੇ ਮਨ ਦੀਆਂ ਕਮਜ਼ੋਰੀਆਂ ਅਤੇ ਵਿਕਾਰਾਂ ਉੱਤੇ ਕਾਬੂ ਪਾ ਲਿਆ ਤਾਂ ਅਸਲ ਜਿੱਤ ਪ੍ਰਾਪਤ ਹੋ ਜਾਂਦੀ ਹੈ।</p>
+</div>
 
-<p>ਕੋਈ ਰੱਬ ਦੀ ਤਾਕਤ ਦੀ ਤਰੀਫ ਕਰਦਾ ਹੈ, ਕੋਈ ਉਸਦੀ ਬਖ਼ਸ਼ਿਸ਼ ਦੀ।  
-ਕੋਈ ਉਸਦੇ ਗੁਣ ਗਾਂਦਾ ਹੈ, ਕੋਈ ਉਸਦੀ ਰਚਨਾ ਦੀ ਮਹਿਮਾ ਕਰਦਾ ਹੈ।</p>
+<div class="line">
+<strong>ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥</strong>
+<p class="meaning">ਸਿਰਫ਼ ਉਸ ਅਕਾਲ ਪੁਰਖ ਅੱਗੇ ਨਿਮਰਤਾ ਨਾਲ ਨਮਸਕਾਰ ਕਰੋ ਜੋ ਸਭ ਦਾ ਮਾਲਕ ਹੈ।</p>
+</div>
 
-<p>ਕੁਝ ਲੋਕ ਰੱਬ ਨੂੰ ਦੂਰ ਸਮਝਦੇ ਹਨ, ਪਰ ਕੁਝ ਉਸਨੂੰ ਹਰ ਜਗ੍ਹਾ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ।</p>
+<div class="line">
+<strong>ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥</strong>
+<p class="meaning">ਵਾਹਿਗੁਰੂ ਆਦਿ ਤੋਂ ਹੈ, ਪਵਿੱਤਰ ਹੈ, ਉਸ ਦਾ ਕੋਈ ਆਰੰਭ ਜਾਂ ਅੰਤ ਨਹੀਂ। ਹਰ ਯੁੱਗ ਵਿੱਚ ਉਹ ਇੱਕੋ ਅਟੱਲ ਸੱਚ ਹੈ।</p>
+</div>
+</section>
 
-<h2>ਨਿਸਕਰਸ਼</h2>
+<!-- PAURI 29 -->
+<section class="pauri" id="pauri-29">
+<h2 class="pauri-title">🌸 ਪਉੜੀ ੨੯</h2>
 
-<p>
-ਪਉੜੀ 3 ਸਾਨੂੰ ਦੱਸਦੀ ਹੈ ਕਿ ਹਰ ਕੋਈ ਰੱਬ ਦੀ ਮਹਿਮਾ ਆਪਣੇ ਆਪਣੇ ਢੰਗ ਨਾਲ ਗਾਉਂਦਾਾ ਹੈ। 
-ਕੋਈ ਉਸਦੀ ਤਾਕਤ ਨੂੰ ਵੇਖਦਾ ਹੈ, ਕੋਈ ਉਸਦੀ ਦਾਤ ਨੂੰ, ਅਤੇ ਕੋਈ ਉਸਦੀ ਰਚਨਾ ਨੂੰ। 
-ਅਸਲ ਗੱਲ ਇਹ ਹੈ ਕਿ ਰੱਬ ਹਰ ਥਾਂ ਮੌਜੂਦ ਹੈ ਅਤੇ ਉਸਦੀ ਮਹਿਮਾ ਅਸੀਮ ਹੈ।
+<p class="gurbani">
+ਭੁਗਤਿ ਗਿਆਨੁ ਦਇਆ ਭੰਡਾਰਣਿ ਘਟਿ ਘਟਿ ਵਾਜਹਿ ਨਾਦ ॥<br>
+ਆਪਿ ਨਾਥੁ ਨਾਥੀ ਸਭ ਜਾ ਕੀ ਰਿਧਿ ਸਿਧਿ ਅਵਰਾ ਸਾਦ ॥<br>
+ਸੰਜੋਗੁ ਵਿਜੋਗੁ ਦੁਇ ਕਾਰ ਚਲਾਵਹਿ ਲੇਖੇ ਆਵਹਿ ਭਾਗ ॥<br>
+ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥<br>
+ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੨੯॥
 </p>
 
-<p>
-ਇਨ੍ਹਾਂ ਦੋਨਾਂ ਪਉੜੀਆਂ ਦਾ ਸਾਂਝਾ ਸੰਦੇਸ਼ ਇਹ ਹੈ ਕਿ ਮਨੁੱਖ ਨੂੰ ਅਹੰਕਾਰ ਛੱਡ ਕੇ 
-ਰੱਬ ਦੇ ਹੁਕਮ ਵਿੱਚ ਰਹਿੰਦੇ ਹੋਏ ਉਸਦੀ ਮਹਿਮਾ ਨੂੰ ਸਮਝਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ। 
-ਇਸੇ ਵਿਚ ਜੀਵਨ ਦੀ ਸੱਚੀ ਸ਼ਾਂਤੀ ਅਤੇ ਸਫਲਤਾ ਹੈ।
+<div class="line">
+<strong>ਭੁਗਤਿ ਗਿਆਨੁ ਦਇਆ ਭੰਡਾਰਣਿ ਘਟਿ ਘਟਿ ਵਾਜਹਿ ਨਾਦ ॥</strong>
+<p class="meaning">ਅਸਲ ਆਤਮਕ ਭੋਜਨ ਗਿਆਨ ਹੈ ਅਤੇ ਦਇਆ ਉਸ ਦੀ ਭੰਡਾਰਣ ਹੈ। ਹਰ ਜੀਵ ਦੇ ਅੰਦਰ ਜੀਵਨ ਦੀ ਰੱਬੀ ਧੁਨ ਵੱਸਦੀ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਆਪਿ ਨਾਥੁ ਨਾਥੀ ਸਭ ਜਾ ਕੀ ਰਿਧਿ ਸਿਧਿ ਅਵਰਾ ਸਾਦ ॥</strong>
+<p class="meaning">ਪਰਮਾਤਮਾ ਆਪ ਸਭ ਦਾ ਮਾਲਕ ਹੈ ਅਤੇ ਸਾਰੀ ਸ੍ਰਿਸ਼ਟੀ ਉਸ ਦੇ ਅਧੀਨ ਹੈ। ਰਿੱਧੀਆਂ-ਸਿੱਧੀਆਂ ਅਤੇ ਅਲੌਕਿਕ ਤਾਕਤਾਂ ਦੇ ਪਿੱਛੇ ਲੱਗਣਾ ਅਸਲ ਆਤਮਕ ਮੰਜ਼ਿਲ ਨਹੀਂ।</p>
+</div>
+
+<div class="line">
+<strong>ਸੰਜੋਗੁ ਵਿਜੋਗੁ ਦੁਇ ਕਾਰ ਚਲਾਵਹਿ ਲੇਖੇ ਆਵਹਿ ਭਾਗ ॥</strong>
+<p class="meaning">ਮਿਲਾਪ ਅਤੇ ਵਿਛੋੜਾ ਜੀਵਨ ਦੇ ਹਿੱਸੇ ਹਨ। ਮਨੁੱਖ ਆਪਣੇ ਕਰਮਾਂ ਅਨੁਸਾਰ ਜੀਵਨ ਦੇ ਅਨੁਭਵ ਪ੍ਰਾਪਤ ਕਰਦਾ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥</strong>
+<p class="meaning">ਉਸ ਇੱਕ ਅਕਾਲ ਪੁਰਖ ਨੂੰ ਹੀ ਨਮਸਕਾਰ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥</strong>
+<p class="meaning">ਉਹ ਸਦਾ ਤੋਂ ਪਵਿੱਤਰ ਅਤੇ ਅਟੱਲ ਹੈ ਅਤੇ ਹਰ ਸਮੇਂ ਇੱਕੋ ਹੀ ਸੱਚੇ ਸਰੂਪ ਵਿੱਚ ਹੈ।</p>
+</div>
+</section>
+
+<!-- PAURI 30 -->
+<section class="pauri" id="pauri-30">
+<h2 class="pauri-title">🌸 ਪਉੜੀ ੩੦</h2>
+
+<p class="gurbani">
+ਏਕਾ ਮਾਈ ਜੁਗਤਿ ਵਿਆਈ ਤਿਨਿ ਚੇਲੇ ਪਰਵਾਣੁ ॥<br>
+ਇਕੁ ਸੰਸਾਰੀ ਇਕੁ ਭੰਡਾਰੀ ਇਕੁ ਲਾਏ ਦੀ ਬਾਣੁ ॥<br>
+ਜਿਵ ਤਿਸੁ ਭਾਵੈ ਤਿਵੈ ਚਲਾਵੈ ਜਿਵ ਹੋਵੈ ਫੁਰਮਾਣੁ ॥<br>
+ਓਹੁ ਵੇਖੈ ਓਨਾ ਨਦਰਿ ਨ ਆਵੈ ਬਹੁਤਾ ਏਹੁ ਵਿਡਾਣੁ ॥<br>
+ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥<br>
+ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੦॥
 </p>
 
-<p>ਜਪੁਜੀ ਸਾਹਿਬ ਸਾਨੂੰ ਸੱਚ ਦੀ ਰਾਹ ਦਿਖਾਉਂਦਾ ਹੈ। ਹਰ ਪੌੜੀ ਸਾਡੇ ਅੰਦਰ ਦੀ ਸੋਚ ਨੂੰ ਬਦਲਦੀ ਹੈ।  
-ਰੋਜ਼ ਜਪੁਜੀ ਸਾਹਿਬ ਦਾ ਪਾਠ ਤੇ ਅਰਥ ਸਮਝਣਾ ਸਾਡੇ ਜੀਵਨ ਨੂੰ ਰੋਸ਼ਨ ਕਰ ਸਕਦਾ ਹੈ।</p>
+<div class="line">
+<strong>ਏਕਾ ਮਾਈ ਜੁਗਤਿ ਵਿਆਈ ਤਿਨਿ ਚੇਲੇ ਪਰਵਾਣੁ ॥</strong>
+<p class="meaning">ਇੱਕ ਮਾਇਆ ਰਾਹੀਂ ਸ੍ਰਿਸ਼ਟੀ ਦਾ ਵਿਸਥਾਰ ਹੋਇਆ ਅਤੇ ਇਸ ਦੇ ਕਾਰਜਾਂ ਦੇ ਵੱਖ-ਵੱਖ ਰੂਪ ਪ੍ਰਗਟ ਹੋਏ।</p>
+</div>
+
+<div class="line">
+<strong>ਇਕੁ ਸੰਸਾਰੀ ਇਕੁ ਭੰਡਾਰੀ ਇਕੁ ਲਾਏ ਦੀ ਬਾਣੁ ॥</strong>
+<p class="meaning">ਸ੍ਰਿਸ਼ਟੀ ਵਿੱਚ ਪੈਦਾ ਕਰਨਾ, ਸੰਭਾਲਣਾ ਅਤੇ ਕਾਰਜਾਂ ਨੂੰ ਚਲਾਉਣਾ ਵੱਖ-ਵੱਖ ਰੂਪਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ, ਪਰ ਅਸਲ ਕਰਤਾ ਇੱਕ ਹੀ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਜਿਵ ਤਿਸੁ ਭਾਵੈ ਤਿਵੈ ਚਲਾਵੈ ਜਿਵ ਹੋਵੈ ਫੁਰਮਾਣੁ ॥</strong>
+<p class="meaning">ਸਾਰੀ ਸ੍ਰਿਸ਼ਟੀ ਉਸ ਦੇ ਹੁਕਮ ਅਨੁਸਾਰ ਚੱਲ ਰਹੀ ਹੈ। ਉਸ ਦੀ ਰਜ਼ਾ ਤੋਂ ਬਿਨਾਂ ਕੁਝ ਨਹੀਂ ਹੁੰਦਾ।</p>
+</div>
+
+<div class="line">
+<strong>ਓਹੁ ਵੇਖੈ ਓਨਾ ਨਦਰਿ ਨ ਆਵੈ ਬਹੁਤਾ ਏਹੁ ਵਿਡਾਣੁ ॥</strong>
+<p class="meaning">ਵਾਹਿਗੁਰੂ ਸਭ ਕੁਝ ਵੇਖਦਾ ਹੈ, ਪਰ ਮਨੁੱਖ ਉਸ ਦੀ ਪੂਰੀ ਵਿਸ਼ਾਲਤਾ ਨੂੰ ਆਪਣੀਆਂ ਸੀਮਤ ਅੱਖਾਂ ਅਤੇ ਬੁੱਧੀ ਨਾਲ ਨਹੀਂ ਸਮਝ ਸਕਦਾ।</p>
+</div>
+
+<div class="line">
+<strong>ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥</strong>
+<p class="meaning">ਉਸ ਇੱਕ ਅਕਾਲ ਪੁਰਖ ਨੂੰ ਹੀ ਸਿਰ ਨਿਵਾਉਣਾ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥</strong>
+<p class="meaning">ਉਹ ਸਦੀਵੀ, ਪਵਿੱਤਰ ਅਤੇ ਅਟੱਲ ਸੱਚ ਹੈ।</p>
+</div>
+</section>
+
+<!-- PAURI 31 -->
+<section class="pauri" id="pauri-31">
+<h2 class="pauri-title">🌸 ਪਉੜੀ ੩੧</h2>
+
+<p class="gurbani">
+ਆਸਣੁ ਲੋਇ ਲੋਇ ਭੰਡਾਰ ॥<br>
+ਜੋ ਕਿਛੁ ਪਾਇਆ ਸੁ ਏਕਾ ਵਾਰ ॥<br>
+ਕਰਿ ਕਰਿ ਵੇਖੈ ਸਿਰਜਣਹਾਰੁ ॥<br>
+ਨਾਨਕ ਸਚੇ ਕੀ ਸਾਚੀ ਕਾਰ ॥<br>
+ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥<br>
+ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥੩੧॥
+</p>
+
+<div class="line">
+<strong>ਆਸਣੁ ਲੋਇ ਲੋਇ ਭੰਡਾਰ ॥</strong>
+<p class="meaning">ਅਨੇਕਾਂ ਲੋਕ ਅਤੇ ਬ੍ਰਹਿਮੰਡ ਉਸ ਦੀ ਰਚਨਾ ਹਨ ਅਤੇ ਹਰ ਥਾਂ ਉਸ ਦੀ ਅਪਾਰ ਦਾਤ ਦਾ ਭੰਡਾਰ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਜੋ ਕਿਛੁ ਪਾਇਆ ਸੁ ਏਕਾ ਵਾਰ ॥</strong>
+<p class="meaning">ਜੋ ਕੁਝ ਵੀ ਸਾਨੂੰ ਮਿਲਿਆ ਹੈ, ਉਹ ਉਸ ਦੀ ਰਚਨਾ ਅਤੇ ਦਾਤ ਦਾ ਹਿੱਸਾ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਕਰਿ ਕਰਿ ਵੇਖੈ ਸਿਰਜਣਹਾਰੁ ॥</strong>
+<p class="meaning">ਸਿਰਜਣਹਾਰ ਆਪਣੀ ਰਚਨਾ ਨੂੰ ਰਚ ਕੇ ਆਪ ਹੀ ਵੇਖਦਾ ਅਤੇ ਸੰਭਾਲਦਾ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਨਾਨਕ ਸਚੇ ਕੀ ਸਾਚੀ ਕਾਰ ॥</strong>
+<p class="meaning">ਨਾਨਕ ਜੀ ਦੱਸਦੇ ਹਨ ਕਿ ਸੱਚੇ ਪਰਮਾਤਮਾ ਦੀ ਸਾਰੀ ਕਾਰ ਵੀ ਸੱਚੀ ਅਤੇ ਅਟੱਲ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਆਦੇਸੁ ਤਿਸੈ ਆਦੇਸੁ ॥</strong>
+<p class="meaning">ਉਸ ਇੱਕ ਸੱਚੇ ਮਾਲਕ ਨੂੰ ਨਮਸਕਾਰ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਆਦਿ ਅਨੀਲੁ ਅਨਾਦਿ ਅਨਾਹਤਿ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਵੇਸੁ ॥</strong>
+<p class="meaning">ਉਹ ਆਦਿ ਤੋਂ ਪਵਿੱਤਰ, ਬੇਅੰਤ ਅਤੇ ਹਰ ਯੁੱਗ ਵਿੱਚ ਇੱਕੋ ਸੱਚ ਹੈ।</p>
+</div>
+</section>
+
+<!-- PAURI 32 -->
+<section class="pauri" id="pauri-32">
+<h2 class="pauri-title">🌸 ਪਉੜੀ ੩੨</h2>
+
+<p class="gurbani">
+ਇਕ ਦੂ ਜੀਭੌ ਲਖ ਹੋਹਿ ਲਖ ਹੋਵਹਿ ਲਖ ਵੀਸ ॥<br>
+ਲਖੁ ਲਖੁ ਗੇੜਾ ਆਖੀਅਹਿ ਏਕੁ ਨਾਮੁ ਜਗਦੀਸ ॥<br>
+ਏਤੁ ਰਾਹਿ ਪਤਿ ਪਵੜੀਆ ਚੜੀਐ ਹੋਇ ਇਕੀਸ ॥<br>
+ਸੁਣਿ ਗਲਾ ਆਕਾਸ ਕੀ ਕੀਟਾ ਆਈ ਰੀਸ ॥<br>
+ਨਾਨਕ ਨਦਰੀ ਪਾਈਐ ਕੂੜੀ ਕੂੜੈ ਠੀਸ ॥੩੨॥
+</p>
+
+<div class="line">
+<strong>ਇਕ ਦੂ ਜੀਭੌ ਲਖ ਹੋਹਿ ਲਖ ਹੋਵਹਿ ਲਖ ਵੀਸ ॥</strong>
+<p class="meaning">ਜੇ ਇੱਕ ਜੀਭ ਤੋਂ ਲੱਖਾਂ ਜੀਭਾਂ ਵੀ ਬਣ ਜਾਣ ਅਤੇ ਹਰ ਇੱਕ ਨਾਲ ਬੇਅੰਤ ਵਾਰ ਨਾਮ ਜਪਿਆ ਜਾਵੇ, ਫਿਰ ਵੀ ਨਾਮ ਦੀ ਮਹਿਮਾ ਦਾ ਪੂਰਾ ਅੰਤ ਨਹੀਂ ਪਾਇਆ ਜਾ ਸਕਦਾ।</p>
+</div>
+
+<div class="line">
+<strong>ਲਖੁ ਲਖੁ ਗੇੜਾ ਆਖੀਅਹਿ ਏਕੁ ਨਾਮੁ ਜਗਦੀਸ ॥</strong>
+<p class="meaning">ਅਨੇਕਾਂ ਵਾਰ ਉਸ ਜਗਤ ਦੇ ਮਾਲਕ ਦਾ ਇੱਕ ਨਾਮ ਜਪਣਾ ਹੀ ਆਤਮਕ ਰਾਹ ਨੂੰ ਉੱਚਾ ਕਰਦਾ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਏਤੁ ਰਾਹਿ ਪਤਿ ਪਵੜੀਆ ਚੜੀਐ ਹੋਇ ਇਕੀਸ ॥</strong>
+<p class="meaning">ਨਾਮ ਦੇ ਇਸ ਰਾਹ ਰਾਹੀਂ ਆਤਮਕ ਉੱਚਾਈ ਦੀਆਂ ਪੌੜੀਆਂ ਚੜ੍ਹ ਕੇ ਪਰਮਾਤਮਾ ਨਾਲ ਇਕਸੁਰਤਾ ਵੱਲ ਵਧਿਆ ਜਾਂਦਾ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਸੁਣਿ ਗਲਾ ਆਕਾਸ ਕੀ ਕੀਟਾ ਆਈ ਰੀਸ ॥</strong>
+<p class="meaning">ਕੇਵਲ ਸੁਣ ਲੈਣ ਨਾਲ ਮਨੁੱਖ ਉਸ ਉੱਚੀ ਅਵਸਥਾ ਨੂੰ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਲੈਂਦਾ। ਅੰਦਰੋਂ ਬਦਲਾਅ ਅਤੇ ਸੱਚੀ ਕਮਾਈ ਜ਼ਰੂਰੀ ਹੈ।</p>
+</div>
+
+<div class="line">
+<strong>ਨਾਨਕ ਨਦਰੀ ਪਾਈਐ ਕੂੜੀ ਕੂੜੈ ਠੀਸ ॥</strong>
+<p class="meaning">ਨਾਨਕ ਜੀ ਦੱਸਦੇ ਹਨ ਕਿ ਅਸਲ ਮਿਲਾਪ ਪਰਮਾਤਮਾ ਦੀ ਨਦਰਿ ਨਾਲ ਹੁੰਦਾ ਹੈ। ਝੂਠੀ ਹਉਮੈ ਅਤੇ ਦਿਖਾਵਾ ਮਨੁੱਖ ਨੂੰ ਸੱਚ ਤੋਂ ਦੂਰ ਰੱਖਦੇ ਹਨ।</p>
+</div>
+</section>
   
 <h3>🙏 ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹਿ।</p></h3>
 <div class="post-nav">
