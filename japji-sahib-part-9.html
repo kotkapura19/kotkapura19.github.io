@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ਪਉੜੀ 28 ਤੋਂ 38 ਦੀ ਵਿਆਖਿਆ | Gurbani Vichar</title>
+<title>ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ਪਉੜੀ 28 ਤੋਂ 32 ਦੀ ਵਿਆਖਿਆ | Gurbani Vichar</title>
 
-<meta name="description" content="ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ਦੀਆਂ ਪਉੜੀਆਂ 28 ਤੋਂ 38 ਦਾ ਪਾਠ ਅਤੇ ਸਰਲ ਪੰਜਾਬੀ ਵਿਆਖਿਆ। Gurbani Vichar.">
-<meta name="keywords" content="Japji Sahib Pauri 28, Japji Sahib Pauri 29, Japji Sahib Pauri 30, Japji Sahib Pauri 31, Japji Sahib Pauri 32, Japji Sahib Pauri 33, Japji Sahib Pauri 34, Japji Sahib Pauri 35, Japji Sahib Pauri 36, Japji Sahib Pauri 37, Japji Sahib Pauri 38, ਜਪੁਜੀ ਸਾਹਿਬ ਵਿਆਖਿਆ">
+<meta name="description" content="ਜਪੁਜੀ ਸਾਹਿਬ ਜੀ ਦੀਆਂ ਪਉੜੀਆਂ 28 ਤੋਂ 32 ਦਾ ਪਾਠ ਅਤੇ ਸਰਲ ਪੰਜਾਬੀ ਵਿਆਖਿਆ। Gurbani Vichar.">
+<meta name="keywords" content="Japji Sahib Pauri 28, Japji Sahib Pauri 29, Japji Sahib Pauri 30, Japji Sahib Pauri 31, Japji Sahib Pauri 32, ਜਪੁਜੀ ਸਾਹਿਬ ਵਿਆਖਿਆ">
 
 <style>
 *{box-sizing:border-box;}
@@ -371,13 +371,38 @@ footer{
 <p class="meaning">ਨਾਨਕ ਜੀ ਦੱਸਦੇ ਹਨ ਕਿ ਅਸਲ ਮਿਲਾਪ ਪਰਮਾਤਮਾ ਦੀ ਨਦਰਿ ਨਾਲ ਹੁੰਦਾ ਹੈ। ਝੂਠੀ ਹਉਮੈ ਅਤੇ ਦਿਖਾਵਾ ਮਨੁੱਖ ਨੂੰ ਸੱਚ ਤੋਂ ਦੂਰ ਰੱਖਦੇ ਹਨ।</p>
 </div>
 </section>
-  
-<h3>🙏 ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ, ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹਿ।</p></h3>
-<div class="post-nav">
-  <a href="japji-sahib-8.html">← Previous</a>
-    <a href="index.html">Home </a>
-  <a href="japji-sahib-part-10.html">Next →</a>
+
+</main>
+
+<audio id="simranAudio" loop preload="none">
+    <source src="Waheguru Simran.mp3" type="audio/mpeg">
+</audio>
+
+<button id="simranBtn" onclick="toggleSimran()">🪔 Simran ON</button>
+
+<footer>
+    🙏 ਵਾਹਿਗੁਰੂ ਜੀ ਕਾ ਖਾਲਸਾ | ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫਤਹਿ
+    <br>
+    © 2026 Gurbani Vichar | All Rights Reserved
+</footer>
+
+<script>
+function toggleSimran(){
+    const audio=document.getElementById("simranAudio");
+    const btn=document.getElementById("simranBtn");
+
+    if(audio.paused){
+        audio.play().then(function(){
+            btn.innerHTML="🔇 Simran OFF";
+        }).catch(function(){
+            alert("Simran start karan lai dubara button press karo.");
+        });
+    }else{
+        audio.pause();
+        btn.innerHTML="🪔 Simran ON";
+    }
+}
+</script>
 
 </body>
-  <script src="simran.js"></script>
-</html>                                                                                                                                                                         
+</html>
